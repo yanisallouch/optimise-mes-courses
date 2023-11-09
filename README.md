@@ -1,72 +1,48 @@
-# Optimiser mes course
+# Optimiser mes courses
 
-## Objectif (idéal)
+## Objectif
 
-Le développpement d'une application android qui permet d'optimiser mes courses en terme :
-- de Budget (produit, marque);
-- de Temps (trajet, organisation, rappel).
+- Le développpement d'une application mobile (Android) qui permet d'optimiser mes courses en terme :
+    - de Budget (produit, marque);
+    - de Temps (trajet, organisation, rappel).s
 
-## Ce que je constate aujourd'hui
+## Je dispose
 
-### Budget
+- Je dispose d'information sur mon identité.
+- Je dispose d'information sur ma diète.
+- Je dispose d'information sur les prix du marché.
+- Je dispose d'information sur mes trajets.
 
-- Je constate que mon panier quotidien se compose d'article que j'achète dans différentes enseignes lors d'une "sortie course".
+## Je veux
 
-- Je constate que mon panier idéal est une composition de plusieurs enseignes, avec plusieurs adresses données.
-
-- Je constate que mon panier se compose de (catégories)[assets/main-food-categories.png] d'articles :
-    - Céréales;
-    - Pains;
-    - Produits laitiers;
-    - Fruits;
-    - Oeufs;
-    - Viandes;
-    - Poissons;
-    - Légumes;
-    - Huiles;
-    - Légumineuses,noix,graines;
-    - Sucrées;
-    - Boissons alcoolisées;
-    - Boissons non-alcoolisées;
-
-- Je constate que je décompose mon panier par une vue nutritionelle [macro](https://www.laboratoire-lescuyer.com/blog/nos-conseils-sante/tout-savoir-sur-les-micronutriments-macronutriments#:~:text=Les%20macronutriments%20sont%20les%20%C3%A9l%C3%A9ments,'apportent%20pas%20d'%C3%A9nergie.) :
-    - Glucides;
-    - Protéines;
-    - Lipides.
-
-- Je constate que la vue [macronutriment](https://www.laboratoire-lescuyer.com/blog/nos-conseils-sante/tout-savoir-sur-les-micronutriments-macronutriments#:~:text=Les%20macronutriments%20sont%20les%20%C3%A9l%C3%A9ments,'apportent%20pas%20d'%C3%A9nergie.) regroupe des catégories d'articles :
-    - Glucides : 
-        - Pains, céréales, fruits, légumes et produits sucrées;
-    - Protéines :
-        - Viandes, poissons, légumes, oeufs, noix et produits laitiers;
-    - Lipides :
-        - Transversales entres huiles, poissons, graines, noix, céréales complètes, fruits, produits laitiers.
-
-- Je constate, que le prix des articles évoluent au cours du temps au sein d'une enseigne donnée pour une adresse donnée.
-
-- Je constate  que les prix sont plutôt régulier sur une période de temps donnée en fonction de la catégorie de l'article :
-    - Légumes, fruits : 2 mois;
-    - Céréales : 3 mois;
-    - Viandes : 
-
-- Je constate également, aussi les courses livrés en drive ou à domicile coutent moins cher mais nécéssite un minimum d'achat qui n'est pas justifié à toutes les occassions.
-
-- Je constate qu'acheter des produits frais de saison est généralement moins cher sur :
-    - légumes;
-    - fruits.
-
-- Je constate qu'acheter de la viande chez le boucher permet d'avoir une qualité supérieur pour un prix équivalent. Parfois, non. Le prix est trop élevé pour une qualité équivalente.
-
-- Je constate que ...
-
-### Temps
-
-- Je constate que ...
-
-## Matériel
-
-- Je dispose de ...
-
-## Environnement
-
-- Je dispose de ....
+- Je veux une application qui me permet de contrôler le montant payé en caisse du panier vs le montant calculé en rayon (erreur de prix).
+- Je veux une application qui me permet de garder en mémoire les paniers de courses.
+- Je veux une application qui me permet de savoir quand est-ce que je dois racheter un article en fonction :
+    - de ça date de péremption;
+    - durée arbitraire;
+    - habitude de consommation.
+- Je veux une application qui me permet calcul mon panier de course en [minimisant](https://choco-solver.org/) selon des articles données :
+    - le budget;
+    - le temps passés à faire les courses :
+        - Trajet;
+        - Organisation;
+        - Cuisson.
+- Je veux une application qui me proposent des légumes de saison dans mon panier de course.
+- Je veux une application qui m'affichent des insights sur mes habitudes de courses, entre autres :
+    - temps d'achat;
+    - budget;
+    - récurrence d'achat;
+    - etc.
+- Je veux une application qui m'envoient par mail des insights avec des graphiques sur les données précédentes.
+- Je veux une application qui me rappel par notification quand racheter un article quand il commence à manquer.
+- Je veux une application qui me permet de saisir ma diète.
+- Je veux une application qui me permet de connecter le rappel à mon calendrier google ou autre (ical).
+- Je veux une application qui me permet de saisir mon profil utilisateur :
+    - nom;
+    - prénom;
+    - date de naissance;
+    - adresse.
+- Je veux une application qui me permet de sauvegarder tout ça dans le cloud.
+- Je veux une application qui me permet de me comparer a d'autre utilisateur, en terme de :
+    - budget;
+    - temps.
