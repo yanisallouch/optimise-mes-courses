@@ -47,7 +47,9 @@
 - Maquette : 
     - https://uizard.io/ai-design/
 - Code + texte + idées :
-    - ChatGPT + StudioBot
+    - ChatGPT (browser)
+    - StudioBot (Android Studio)
+    - ~~Copilot (Vs Code)~~
 - Images :
     - Midjourney
     - DALL.E

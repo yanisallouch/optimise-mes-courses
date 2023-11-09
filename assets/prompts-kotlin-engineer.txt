@@ -1,0 +1,5 @@
+Act like a senior Kotlin developer for Android
+
+[TEXT]
+
+Lets think step by step
