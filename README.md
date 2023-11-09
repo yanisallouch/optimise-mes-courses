@@ -1,48 +1,63 @@
-# Optimiser mes courses
+# Optimize my shopping
 
-## Objectif
+## Objective
 
-- Le développpement d'une application mobile (Android) qui permet d'optimiser mes courses en terme :
-    - de Budget (produit, marque);
-    - de Temps (trajet, organisation, rappel).s
+- The development of a mobile application (Android) that allows me to optimize my shopping in terms of :
+    - Budget (product, brand);
+    - Time (route, organization, reminder).
 
-## Je dispose
+## I have
 
-- Je dispose d'information sur mon identité.
-- Je dispose d'information sur ma diète.
-- Je dispose d'information sur les prix du marché.
-- Je dispose d'information sur mes trajets.
+- I have information about my identity.
+- I have information about my diet.
+- I have information on market prices.
+- I have information about my routes.
 
-## Je veux
+## I want
 
-- Je veux une application qui me permet de contrôler le montant payé en caisse du panier vs le montant calculé en rayon (erreur de prix).
-- Je veux une application qui me permet de garder en mémoire les paniers de courses.
-- Je veux une application qui me permet de savoir quand est-ce que je dois racheter un article en fonction :
-    - de ça date de péremption;
-    - durée arbitraire;
-    - habitude de consommation.
-- Je veux une application qui me permet calcul mon panier de course en [minimisant](https://choco-solver.org/) selon des articles données :
-    - le budget;
-    - le temps passés à faire les courses :
-        - Trajet;
-        - Organisation;
-        - Cuisson.
-- Je veux une application qui me proposent des légumes de saison dans mon panier de course.
-- Je veux une application qui m'affichent des insights sur mes habitudes de courses, entre autres :
-    - temps d'achat;
+- I want an application that lets me check the amount paid at the checkout vs. the amount calculated on the shelf (price error).
+- I want an application that lets me keep track of my shopping baskets.
+- I want an application that lets me know when to buy an item based on :
+    - its expiration date;
+    - arbitrary duration;
+    - consumption habits.
+- I want an application that lets me calculate my shopping basket by [minimizing](https://choco-solver.org/) according to given items :
     - budget;
-    - récurrence d'achat;
+    - time spent shopping :
+        - Journey;
+        - Organization;
+        - Cooking.
+- I want an application that suggests seasonal vegetables in my shopping basket.
+- I want an application that shows me insights into my shopping habits, including :
+    - shopping time;
+    - budget;
+    - purchase recurrence;
     - etc.
-- Je veux une application qui m'envoient par mail des insights avec des graphiques sur les données précédentes.
-- Je veux une application qui me rappel par notification quand racheter un article quand il commence à manquer.
-- Je veux une application qui me permet de saisir ma diète.
-- Je veux une application qui me permet de connecter le rappel à mon calendrier google ou autre (ical).
-- Je veux une application qui me permet de saisir mon profil utilisateur :
-    - nom;
-    - prénom;
-    - date de naissance;
-    - adresse.
-- Je veux une application qui me permet de sauvegarder tout ça dans le cloud.
-- Je veux une application qui me permet de me comparer a d'autre utilisateur, en terme de :
-    - budget;
-    - temps.
+- I want an application that emails me insights with graphs on previous data.
+
+## Quelques liens
+
+- https://perso.liris.cnrs.fr/christine.solnon/Site-PPC/e-miage-ppc-som.htm
+- https://choco-solver.org/
+- https://fr.wikipedia.org/wiki/Programmation_par_contraintes
+
+
+## Quels IA ?
+
+- Maquette : 
+    - https://uizard.io/ai-design/
+- Code + texte + idées :
+    - ChatGPT + StudioBot
+- Images :
+    - Midjourney
+    - DALL.E
+    - StableDiffusion
+    - Craiyon
+    - Shutterstock IA
+- Musiques :
+    - Mubert
+    - Aiva
+    - Boomy
+    - Beatoven.ai
+- Prototypage :
+    - Appy Pie
