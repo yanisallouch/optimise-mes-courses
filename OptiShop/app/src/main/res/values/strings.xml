@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">OptiShop</string>
     <string name="welcome">Welcome</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="welcome_message">Welcome to Your App!\n\n%s</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="welcome_message_placeholder">@string/welcome_message</string>
+    <string name="logo_content_description">App Logo</string>
 </resources>
