@@ -1,5 +1,7 @@
 package com.yanisallouch.optishop
 
-class SignUpActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class SignUpActivity : AppCompatActivity() {
 
 }

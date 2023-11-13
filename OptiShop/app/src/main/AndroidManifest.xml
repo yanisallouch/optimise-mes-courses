@@ -10,18 +10,32 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OptiShop"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.OptiShop">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/sign_in_activity_label">
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/sign_up_activity_label">
+            <!-- You can add other attributes here if needed -->
+        </activity>
+
+        <activity
+            android:name=".SetupProfileActivity"
+            android:label="@string/setup_profile_activity_label">
+            <!-- You can add other attributes here if needed -->
         </activity>
     </application>
 

@@ -1,5 +1,7 @@
 package com.yanisallouch.optishop
 
-class SetupProfileActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class SetupProfileActivity : AppCompatActivity() {
 
 }
